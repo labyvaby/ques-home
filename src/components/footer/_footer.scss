@@ -1,0 +1,59 @@
+.footer {
+    background: #6D7C56;
+    color: #fff;
+    padding: 40px 0;
+    font-size: 14px;
+
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+
+    &__top {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 32px;
+        margin-bottom: 24px;
+    }
+
+    &__logo {
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    &__nav {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+
+        a {
+            color: #333;
+            text-decoration: none;
+            color: #fff;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+
+    &__contacts {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+    }
+
+    &__socials {
+        display: flex;
+        gap: 12px;
+    }
+
+    &__bottom {
+        text-align: center;
+        font-size: 12px;
+        color: #fff;
+
+    }
+}
